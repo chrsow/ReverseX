@@ -4,7 +4,8 @@ Tool for extracting source code of browsers extension/add-on.
 ```
 git clone https://github.com/chrsow/ReverseX.git
 cd ReverseX
-pip install -r requirements
+// pip for python3
+pip3 install -r requirements
 ```
 
 ## Usage
