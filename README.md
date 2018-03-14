@@ -1,5 +1,5 @@
 # ReverseX
-Tool for extracting source code of browsers extension/add-on.
+Tool for extracting source code of browsers(Chrome, Firefox, Safari, Brave) extension/add-on.
 ## Installation
 ```
 git clone https://github.com/chrsow/ReverseX.git
@@ -8,6 +8,7 @@ cd ReverseX
 pip3 install -r requirements
 ```
 
+_I'm finding a way to make the program be installed with pip._
 ## Usage
 ```
 python ./ReverseX/ReverseX.py <command> <arguments>
