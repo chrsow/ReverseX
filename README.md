@@ -14,6 +14,7 @@ python ./ReverseX/ReverseX.py <command> <arguments>
 ```
 
 Commands (using Safari as an example).
+
 | Function  | Command               | Notes
 | :------ | :-------------------- | :---------
 | list    | `ReverseX safari ls`  | Lists all Safari extension on user's computer.
