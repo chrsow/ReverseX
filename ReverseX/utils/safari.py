@@ -17,7 +17,7 @@ class Safari(Browser):
     #         print('[-] Something wrong.')
     #         exit(1)   ]
     
-    def reverse(self, extension_name, data_dir = '{}{}'.format(os.getcwd(), SAFARI_DATA_DIRECTORY)):            
+    def extract(self, extension_name, data_dir = '{}{}'.format(os.getcwd(), SAFARI_DATA_DIRECTORY)):            
         extension_file_path = '{}{}{}'.format(MAC_SAFARI_EXTENSION_PATH, extension_name, MAC_SAFARI_EXTENSION_FORMAT)
 
         try: 

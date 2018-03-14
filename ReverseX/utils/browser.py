@@ -31,6 +31,6 @@ class Browser(object):
         print(extensions)
 
 
-    def reverse(self, extension_name, data_dir = os.getcwd() + '/Data/Safari/'):        
+    def extract(self, extension_name, data_dir = os.getcwd() + '/Data/Safari/'):        
         raise NotImplementedError()
     

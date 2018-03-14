@@ -12,6 +12,13 @@ pip3 install -r requirements
 ```
 python ./ReverseX/ReverseX.py <command> <arguments>
 ```
+
+Commands (using Safari as an example).
+| Function  | Command               | Notes
+| :------ | :-------------------- | :---------
+| list    | `ReverseX safari ls`  | Lists all Safari extension on user's computer.
+| extract | `ReverseX safari extract ABC` | Extracts Safari extension ABC on default folder (`./ReverseX/Data/Safari`).
+| extract | `ReverseX safari extract ABC /tmp` | Extracts Safari extension ABC on specific folder (e.g. `/tmp`).
 ## TODO
 
 ### Support for multi OS
