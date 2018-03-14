@@ -4,7 +4,6 @@ import platform
 import subprocess
 from utils import chrome, firefox, safari
 from utils.constants import *
-# from utils import *
 
 class ReverseX(object):
     """
@@ -30,6 +29,16 @@ class ReverseX(object):
         self.chrome = chrome.Chrome(self.ls_extension, self.extension_format)
         self.firefox = firefox.Firefox(self.ls_extension, self.extension_format)
         self.safari = safari.Safari(self.ls_extension, self.extension_format)
+
+
+    def __check_browsers():
+        """
+        Check all browsers user has
+        """
+        browsers = []
+        (out, err) = subprocess.Popen('', shell=True)
+        status_code = out.status_code()
+        return browsers
 
     def run(self):
         self.chrome.run()
